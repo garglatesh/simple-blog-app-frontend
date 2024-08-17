@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1a202c;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.post-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 15px 0;
+  transition: background-color 0.3s ease;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item:hover {
+  background-color: #f1f5f9;
+}
+
+.post-title {
+  font-size: 1.25rem;
+  color: #2c5282;  /* Changed to a more subtle blue */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.post-title:hover {
+  color: #2b6cb0;  /* A darker blue on hover */
+}
+
+.post-excerpt {
+  color: #4b5563;
+  margin-top: 5px;
+}
+
+.post-link {
+  color: #2c5282;  /* Match the initial title color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.post-link:hover {
+  color: #2b6cb0;  /* Darker blue on hover to match the title */
+}
